@@ -14,6 +14,14 @@
     $ git clone https://github.com/xxxxxxxxxxxxxx
     $ cd 
     $ pip install -r requirements.txt
-    
+填入TelegramBot的token:
 
-565656
+    # mysite/myapp/views.py
+    bot=telebot.TeleBot('請輸入你的token!!!')
+
+執行Ngrok取得測試用網址:
+圖片
+設定Telegram Bot所需的webhook:
+圖片
+打開Telegram Bot對話視窗 & 測試:
+圖片
