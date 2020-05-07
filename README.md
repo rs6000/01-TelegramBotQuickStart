@@ -29,6 +29,6 @@
 
 打開Telegram Bot對話視窗 & 測試:
 
-![圖片3](https://github.com/rs6000/01TelegramBotQuickStart/blob/master/src/md01_03.png)
+![圖片3](https://github.com/rs6000/01TelegramBotQuickStart/blob/master/src/md01_03.PNG)
 
 
