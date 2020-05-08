@@ -6,7 +6,7 @@ import json ,requests
 import telebot
 
 # Create your views here.
-bot=telebot.TeleBot('1064726174:AAEmVKepRrFKNXQ5aRg_NT5FSEeqimpyhsg')
+bot=telebot.TeleBot('請輸入你的token!!!')
 
 class UpdateBot(APIView):
     def post(self,request):
@@ -19,7 +19,7 @@ class UpdateBot(APIView):
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id,'Hi 2020')
+    bot.send_message(message.chat.id,'Hi')
     
     user=User()
     user.user_id=message.chat.id
