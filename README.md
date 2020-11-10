@@ -10,7 +10,7 @@
  ### 快速懶人包:
 直接使用本篇的範例程式:
 
-    $ git clone https://github.com/rs6000/01TelegramBotQuickStart.git
+    $ git clone https://github.com/rs6000/01-TelegramBotQuickStart.git
     $ cd mysite
     $ pip install -r requirements.txt
 
